@@ -1,0 +1,17 @@
+.sunDataCnt h3 {
+  font-weight: 400;
+}
+
+.sunDataCnt h3 span {
+  font-weight: 700;
+}
+
+.sunCnt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sunCnt p {
+  color: var(--light-gray-color);
+  font-size: 12px;
+}

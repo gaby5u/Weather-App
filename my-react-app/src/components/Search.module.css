@@ -1,0 +1,49 @@
+.inputButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  width: calc(100% - 28px);
+  padding: 10px 0;
+  padding-left: 28px;
+  padding-right: 0;
+  margin: 0;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid var(--dark-gray-color);
+  background-color: var(--dark-gray-color);
+}
+
+input:focus-visible {
+  border: 1px solid #fff;
+  outline: none;
+  transition: ease 0.3s;
+}
+
+.locationIcon {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 0;
+  top: 3.5px;
+  border-radius: 50%;
+  padding: 5px 8px;
+  border: none;
+  background-color: #000;
+}

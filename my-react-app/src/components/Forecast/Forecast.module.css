@@ -1,0 +1,58 @@
+.forecastCnt,
+.uvWindCnt {
+  background-color: #02020fd0;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+hr {
+  border: 1px solid var(--dark-gray-color);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.title {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.title h4 {
+  font-weight: 300;
+  margin: 0;
+  color: var(--light-gray-color);
+  text-transform: uppercase;
+}
+
+.scrollMenu {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.item {
+  padding: 1rem;
+  min-width: 6rem;
+  background-color: red;
+  color: #fff;
+}
+
+.scrollMenu::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollMenu::-webkit-scrollbar-thumb {
+  background: var(--medium-gray-color);
+  border-radius: 5px;
+}
+
+.scrollMenu::-webkit-scrollbar-track {
+  background-color: var(--dark-gray-color);
+  border-radius: 5px;
+}

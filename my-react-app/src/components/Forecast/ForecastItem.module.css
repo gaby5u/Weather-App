@@ -1,0 +1,38 @@
+.itemCnt,
+.itemCntHours {
+  min-width: 5rem;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #02020fd0;
+}
+
+.itemCnt {
+  cursor: pointer;
+}
+
+.itemCntActive {
+  background-color: var(--medium-gray-color);
+}
+
+.itemCnt:hover {
+  transition: all 0.4s;
+  border: 1px solid #fff;
+}
+
+.itemCnt p,
+.itemCntHours p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.itemCnt h2,
+.itemCntHours h2 {
+  font-weight: 400;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.icon {
+  text-align: center;
+}

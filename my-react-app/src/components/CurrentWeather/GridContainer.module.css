@@ -1,0 +1,29 @@
+.gridCnt {
+  background-color: var(--dark-alpha);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: start;
+}
+
+.iconTitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gridCnt p {
+  text-transform: uppercase;
+  color: var(--light-gray-color);
+  margin: 8px 0;
+}
+
+.gridCnt h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.gridCnt h4 {
+  margin: 5px 0;
+  font-weight: 500;
+}

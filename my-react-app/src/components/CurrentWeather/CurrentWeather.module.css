@@ -1,0 +1,107 @@
+@import "../../App.css";
+
+.currentWeatherCnt {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 4rem 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.currentWeatherText {
+  padding: 2rem 0;
+}
+
+.currentWeatherText h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.address h2 {
+  position: absolute;
+  font-size: 0.8rem;
+  text-align: start;
+  top: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
+}
+
+.currentWeatherText h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0.8rem;
+}
+
+.currentWeatherText p {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.gridCurrentWeather {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+.loadingModule,
+.fetchingErrorCnt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(3, 13, 32, 0.904);
+  color: #ffffff;
+}
+
+.fetchingErrorCnt {
+  background-color: rgb(3, 13, 32);
+  text-align: center;
+}
+
+.fetchingErrorCnt h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.loadingModule p,
+.errorModule p,
+.fetchingErrorCnt p {
+  padding: 1em;
+  font-size: 1.4em;
+}
+
+.errorModule {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(3, 13, 32);
+  min-width: 40vw;
+  padding: 7rem 0;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  border-radius: 1rem;
+  border: 1px solid #fff;
+}
+
+.errorModule button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--light-gray-color);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.errorModule button:hover {
+  background-color: var(--medium-gray-color);
+  transition: all 0.3s ease-in-out;
+}

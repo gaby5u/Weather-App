@@ -1,0 +1,28 @@
+.windDataCnt h3 {
+  font-weight: 400;
+}
+
+.windSpeedGustCnt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.windSpeedGustCnt h3 {
+  margin: 0;
+}
+
+.windSpeedGustCnt p {
+  color: var(--light-gray-color);
+  font-size: 12px;
+  margin: 3px;
+}
+
+.windCnt {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.windDetails p:last-child {
+  color: #fff;
+}

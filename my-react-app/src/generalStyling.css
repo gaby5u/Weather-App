@@ -1,0 +1,27 @@
+:root {
+  --dark-gray-color: #2d2d31;
+  --medium-gray-color: #474747d7;
+  --light-gray-color: #777777;
+  --dark-alpha: #0d0c1aaf;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-image: url(assets/clouds.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+button {
+  cursor: pointer;
+}

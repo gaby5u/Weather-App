@@ -36,13 +36,6 @@ hr {
   padding-bottom: 1rem;
 }
 
-.item {
-  padding: 1rem;
-  min-width: 6rem;
-  background-color: red;
-  color: #fff;
-}
-
 .scrollMenu::-webkit-scrollbar {
   height: 6px;
 }
